@@ -8,19 +8,28 @@ body {
 }
 
 .card {
+    box-sizing: border-box;
     background-color: hsl(0, 0%, 12%);
     color: hsl(0, 0%, 100%);
     width: 90%;
     max-width: 350px;
     margin: auto;
+    margin-top: 12%;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .profile-avatar {
+    padding-top: .75em;
+}
+
+.profile-avatar img {
     display: block;
     margin: auto;
     border-radius: 250px;
     width: 25%;
     max-width: 80px;
+    min-width: 60px;
 }
 
 .card button {
