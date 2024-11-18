@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,6 +8,11 @@
 
 body {
     background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter';
+}
+
+p {
+    font-size: 14px;
 }
 
 .card {
@@ -17,6 +25,25 @@ body {
     margin-top: 12%;
     border-radius: 20px;
     padding: 20px;
+}
+
+.bio {
+    text-align: center;
+}
+
+.bio h1 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.bio h3 {
+    font-size: .8em;
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+}
+
+.bio p {
+    margin-top: 20px;
 }
 
 .profile-avatar {
@@ -34,6 +61,32 @@ body {
 
 .card button {
     background-color: hsl(0, 0%, 20%);
+}
+
+.links {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.links a {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    width: 300px;
+    height: 2.5em;
+    padding-top: .65em;
+    margin-top: 15px;
+}
+
+.links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
 }
 
 .attribution {
